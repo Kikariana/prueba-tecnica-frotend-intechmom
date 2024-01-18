@@ -1,0 +1,69 @@
+:root{
+    --white80: hsla(0, 0%, 100%, 0.8);
+    --white50: hsla(0, 0%, 90%, 0.8);   
+} 
+
+body{
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;   
+    margin: 0;
+    margin-block-end: 50px;
+ }
+
+header{
+    font-size: 50px;
+    background: linear-gradient(96deg, #314755 30.63%, #26A0DA 102.18%);
+    block-size: 300px;
+    margin-block-start: 0;
+    margin-block-end: 50px;
+}
+h1{
+    margin: 0;
+    padding: 30px;
+    color:var(--white80) ;
+}
+#searchBox{
+    font-family: 'Urbanist', sans-serif;
+    inline-size: 500px;
+    block-size: 50px;
+    border: none;
+    border-radius: 16px;
+    font-size: 22px;
+    
+}
+#searchButton{
+    inline-size: 50px;
+    block-size: 50px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.userSection{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    
+}
+.userButton{
+    font-family: 'Urbanist', sans-serif;
+    inline-size: 500px;
+    block-size: 250px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;    
+    background-color: var(--white50);
+    margin: 10px;
+}
+p{
+    display: flex;
+}
+#userPhoto{
+    margin: 10px;
+    border-radius: 50%;
+}
+.userButton:hover{
+    box-shadow: 6px 6px 6px -1px rgba(11, 0, 51, 0.4);
+}
